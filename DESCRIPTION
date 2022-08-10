@@ -1,0 +1,16 @@
+Package: TwoWayANOVA
+Type: Package
+Title: PB tests for two-way ANOVA
+Version: 0.1.0
+Author: Anjana Mondal
+Maintainer: Anjana Mondal<mondal.anjana25@gmail.com>
+Description: This package finds test statistic value and corresponding critical value of parametric bootstrap based LRT, Min-T, and Max-T tests for testing
+            equality of row effects against ordered alternatives in two-way ANOVA model with heteroscedasticity. 
+            This package also finds simultaneous confidence interval for successive pairwise differences of treatment effects.
+License: GPL-2
+Encoding: UTF-8
+Depends: Iso
+LazyData: true
+RoxygenNote: 7.2.0
+
+
