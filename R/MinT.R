@@ -87,7 +87,7 @@ MinT<-function(data,a,b,alpha)
   }
   set.seed(194)
   statistic_value<-fun1(m, v, a, b)
-  crit_value<-fun3(S,N,a,b,0.05)
+  crit_value<-fun3(S,N,a,b,alpha)
   result<-c(statistic_value, crit_value)
   print("test statistic value and critical value")
   print(result)
